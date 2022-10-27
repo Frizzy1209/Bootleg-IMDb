@@ -7,3 +7,44 @@ header {
     height: 45px;
 }
 
+.navbar {
+    width: 100%;
+    overflow: auto;
+    background-color: #262626;
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navbar ul li {
+    float: left;
+}
+
+.navbar ul li a {
+    width: 120px;
+    display: block;
+    padding: 15px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: poppins;
+    font-size: 20px;
+    text-align: center;
+}
+
+#search {
+    width: 450px;
+    padding: 5px;
+    border-radius: 25px;
+    border: none;
+    font-size: 18px;
+    text-align: center;
+    margin: 15px;
+}
+
+body {
+    background: moccasin;
+}
