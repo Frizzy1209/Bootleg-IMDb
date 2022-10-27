@@ -6,10 +6,11 @@ fetch('https://gist.githubusercontent.com/pankaj28843/08f397fcea7c760a99206bcb0a
 
         // Show the amount of movies
 
-        const moviesFetched = document.querySelector('h2')
+        const moviesFetched = document.querySelector('h1')
 
         function renderMoviesFetched () {
-            moviesFetched.innerHTML = movieData.length + " different movies to view"
+            moviesFetched.innerHTML = "Get the Title, rating and release year for "
+                + movieData.length + " different movies!"
         }
         renderMoviesFetched()
 
@@ -17,8 +18,9 @@ fetch('https://gist.githubusercontent.com/pankaj28843/08f397fcea7c760a99206bcb0a
 
         // Show movie info
 
+        const displayMovie = document.querySelector('.movieInfo')
+
         function getArray (movieData){
-            const displayMovie = document.querySelector('.showMovie')
             displayMovie.innerHTML = "The title of the movie is " + movieData.title
                 + ", the rating of the movie is " + movieData.rating
                 + " and the movie was released in " + movieData.year + "."

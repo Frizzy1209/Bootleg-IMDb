@@ -1,10 +1,6 @@
 
-header {
-
-}
-
 .imdbLogo {
-    height: 45px;
+    height: 50px;
 }
 
 .navbar {
@@ -36,7 +32,7 @@ header {
 }
 
 #search {
-    width: 450px;
+    width: 550px;
     padding: 5px;
     border-radius: 25px;
     border: none;
@@ -45,6 +41,45 @@ header {
     margin: 15px;
 }
 
+
+
+button {
+    background-color: #FFFFFF;
+    border-style: none;
+    box-shadow: #ADCFFF 0 -12px 6px inset;
+    box-sizing: border-box;
+    color: #000000;
+    cursor: pointer;
+    font-family: -apple-system,sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+    transition: all .15s;
+}
+
+button:hover {
+    background-color: #ffed6b;
+    box-shadow: #be9000 0 -6px 8px inset;
+    transform: scale(1.125);
+}
+
+.headline {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 15px;
+    font-family: -apple-system,sans-serif;
+}
+
+#underHeadline {
+    font-size: 25px;
+    font-weight: bold;
+    color: #ffed6b;
+}
+
 body {
-    background: moccasin;
+    background: black;
+    color: white;
+    font-family: -apple-system,sans-serif;
 }

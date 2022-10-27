@@ -7,14 +7,13 @@
     <title> Bootleg IMDb </title>
 </head>
     <header>
-        <h1> IMDB 2.0 </h1>
 
         <div class="navbar">
             <ul>
                 <li><a> <img class="imdbLogo" src="imdb-logo-transparent.png" alt="IMDb logo">  </a></li>
                 <li><a> <button id="btn1" > Show all movies </button> </a></li>
-                <li><a> <button id="btn2" > Show movies with a rating over 8.5 </button> </a></li>
-                <li><a> <button id="btn3" > Show movies with a rating under 3 </button> </a></li>
+                <li><a> <button id="btn2" > Rating over 8.5 </button> </a></li>
+                <li><a> <button id="btn3" > Rating under 3 </button> </a></li>
                 <li>
                     <input type="text" name="" id="search" placeholder="Title, rating or year ...">
                 </li>
@@ -24,16 +23,15 @@
     </header>
 
     <body>
-    <h2> </h2>
 
-    <div class="displayMovieInfo">
-        <p> Movie suggestion of the day </p>
-        <p class="showMovie"> </p>
+    <div class="headline">
+        <h1> </h1>
     </div>
 
-
-    <div class="buttons">
-
+    <div class="movieOfTheDay">
+        <p id="underHeadline"> Movie suggestion of the day </p>
+        <p class="movieInfo"> </p>
+        <img src="manosPoster.jpg" alt="Manos: The Hands of Fate poster">
     </div>
 
 
