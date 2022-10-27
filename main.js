@@ -9,7 +9,7 @@ fetch('https://gist.githubusercontent.com/pankaj28843/08f397fcea7c760a99206bcb0a
         const moviesFetched = document.querySelector('h1')
 
         function renderMoviesFetched () {
-            moviesFetched.innerHTML = "Get the Title, rating and release year for "
+            moviesFetched.innerHTML = "Get the Title, release year & rating for "
                 + movieData.length + " different movies!"
         }
         renderMoviesFetched()
