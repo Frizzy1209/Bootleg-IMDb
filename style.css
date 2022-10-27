@@ -78,6 +78,39 @@ button:hover {
     color: #ffed6b;
 }
 
+.movieOfTheDay {
+    float: right;
+
+    padding-right: 45px;
+    width: 40%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.movieInfo {
+    color: white;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+
+.theList {
+    width: 50%;
+}
+
+body li {
+    margin: 5px;
+    font-size: 17px;
+}
+
+body p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffed6b;
+}
+
 body {
     background: black;
     color: white;
